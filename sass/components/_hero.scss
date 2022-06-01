@@ -1,0 +1,27 @@
+.main {
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px 0 200px 0;
+  background-color: var(--back-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img-overlay.jpg);
+  height: 600px;
+  background-size: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  letter-spacing: 0.06em;
+}
+.heading {
+  color: var(--title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}

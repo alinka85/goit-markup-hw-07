@@ -1,0 +1,16 @@
+@import "../utils/fonts";
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  font-family: var(--font-family-roboto), sans-serif;
+}
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
